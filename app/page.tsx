@@ -218,7 +218,17 @@ export default function Home() {
           <div className="footer-contact">
             <span>BOG‘LANISH</span>
             <a href="tel:+998555080808">+998 55 508 08 08</a>
-            <a href="https://www.instagram.com/roewe_uzbekistan" target="_blank" rel="noreferrer">@roewe_uzbekistan ↗</a>
+            <a
+              className="instagram-link"
+              href="https://www.instagram.com/roewe_uzbekistan"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="ROEWE Uzbekistan Instagram sahifasi"
+            >
+              <span className="instagram-icon" aria-hidden="true"><i /></span>
+              <span>@roewe_uzbekistan</span>
+              <b aria-hidden="true">↗</b>
+            </a>
             <p>Toshkent shahri, O‘zbekiston</p>
           </div>
         </div>

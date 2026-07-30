@@ -124,6 +124,12 @@ footer { background: #0c0d0e; color: white; padding: 80px 5vw 25px; }
 .footer-col > span, .footer-contact > span { color: #9e8768; font-size: 8px; letter-spacing: .22em; margin-bottom: 12px; }
 .footer-col a, .footer-col button, .footer-contact a { color: rgba(255,255,255,.7); background: none; border: 0; padding: 0; }
 .footer-contact a:first-of-type { font-size: 18px; color: white; }
+.footer-contact .instagram-link { display: inline-flex; align-items: center; gap: 9px; color: rgba(255,255,255,.78); transition: color .2s ease; }
+.footer-contact .instagram-link:hover { color: white; }
+.footer-contact .instagram-link b { font-size: 11px; font-weight: 400; opacity: .55; }
+.instagram-icon { position: relative; width: 20px; height: 20px; border: 1.5px solid currentColor; border-radius: 6px; display: inline-grid; place-items: center; flex: 0 0 auto; }
+.instagram-icon::before { content: ""; width: 7px; height: 7px; border: 1.5px solid currentColor; border-radius: 50%; }
+.instagram-icon::after { content: ""; position: absolute; width: 2.5px; height: 2.5px; right: 3px; top: 3px; background: currentColor; border-radius: 50%; }
 .footer-contact p { color: rgba(255,255,255,.35); margin: 4px 0 0; }
 .footer-bottom { padding-top: 24px; border-top: 1px solid rgba(255,255,255,.12); display: flex; justify-content: space-between; color: rgba(255,255,255,.3); font-size: 8px; letter-spacing: .12em; }
 
